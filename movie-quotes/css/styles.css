@@ -1,0 +1,42 @@
+body {
+    line-height: 16px;
+    text-indent: 80px;
+    font-size: 16px;
+}
+header{
+    text-indent: 40px;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 48px;
+    text-decoration: underline;
+    font-style: italic;
+}
+h2{
+    font-size: 24px;
+    line-height: 36px;
+}
+.instruction{
+    font-style: italic;
+    font-weight: bold;
+    text-indent: 40px;
+}
+.dana{
+    color: crimson;
+}
+.mayor{
+    color: seagreen;
+}
+.ray{
+    color: orange;
+}
+.egon{
+    color: sienna;
+}
+.winston{
+    color: navy;
+}
+.character{
+    font-size: 18px;
+    font-weight: bolder;
+}
