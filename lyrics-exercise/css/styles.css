@@ -1,0 +1,35 @@
+body {
+    background-color: pink;
+    background-image: url("https://imgix.bustle.com/uploads/image/2019/8/16/c4983b47-3887-442f-bbf1-10841159e406-screen-shot-2019-08-16-at-71045-am.png?w=800&fit=crop&crop=faces&auto=format%2Ccompress");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    text-align: center;
+    line-height: 18px;
+    font-size: 18px;
+    font-family: Impact;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 144px;
+    line-height: 72px;
+    color: hotpink;
+    text-shadow:4px 4px white;
+}
+h2{
+    font-size: 48px;
+    line-height: 48px;
+}
+.Chorus{
+    font-size: 36px;
+    font-style: oblique;
+    line-height: 36px;
+}
+.Lover{
+    color: hotpink;
+    text-shadow:2px 2px white;
+}
+.chord{
+    text-decoration-line: line-through;
+}
