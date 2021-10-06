@@ -1,0 +1,15 @@
+
+h1{
+    color:black;
+    text-transform: capitalize;
+    font-size: 48pt;
+    line-height: 50%;
+    margin: 24px;
+}
+
+img{
+    width: 50%;
+    margin: 24px;
+}
+
+
