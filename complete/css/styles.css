@@ -1,0 +1,187 @@
+html{
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 14px;
+}
+
+body {
+    margin: 0;
+}
+
+header{
+    text-align: left;
+    background-image: url("https://assets.bonappetit.com/photos/5c48972f2f2fcb652dcd35d6/master/w_1600,c_limit/burnt-basque-cheesecake.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.content{
+    max-width: 1000px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header .content{
+    padding: 58% 0 2% 0%;
+}
+
+h1{
+    margin: 0%;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 2.5rem;
+}
+
+ul{
+    padding: 0%;
+    margin: 2rem 0 1rem 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+.time ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.time li{
+    width: 33.333%;
+}
+
+.prep{
+    text-align: left;
+}
+
+.bake{
+    text-align: center;
+}
+
+.cool{
+    text-align: right;
+}
+
+.levelDifficulty{
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.description{
+    padding: 1% 0 3% 0;
+}
+
+.description div{
+    max-width: 90%;
+    max-width: 800px;
+}
+
+.description p{
+    line-height: 1.75rem;
+}
+
+.ingreEquip{
+    padding: 3% 0 5% 0;
+    background-color: whitesmoke;
+}
+
+.ingreEquip .content{
+    max-width: 90%;
+    max-width: 800px;
+}
+
+.ingreEquip ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+
+.ingreEquip li{
+    width: 45%;
+    line-height: 1rem;
+    margin: 0 0% 0 5%;
+}
+
+.ingreEquip h2{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.additional{
+    font-style: italic;
+    margin: 2rem 0 2rem 0;
+}
+
+.list{
+    font-weight: bold;
+}
+
+.equip{
+    margin-bottom: 5rem;
+}
+
+.instructions img{
+    max-width: 100%;
+}
+
+.instructions ul{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+
+.instructions li{
+    width: 30%;
+    margin: 5% 0 0 3.33%;
+    line-height: 1.5rem;
+}
+
+footer{
+    padding: 1% 0 3% 0;
+    background-color: whitesmoke;
+    text-decoration-color: dimgrey;
+    font-size: .8rem;
+}
+
+@media (max-width: 800px)
+{   
+    h1{
+        font-size: 1.8rem;
+    }
+    .time li{
+        width: 100%;
+    }
+    .time aside{
+        text-align: center;
+        line-height: 2rem;
+    }
+    .description div{
+        max-width: 90%;
+    }
+    .ingreEquip .content{
+        max-width: 90%;
+    }
+    .list{
+        max-width: 90%;
+    }
+    .instructions li{
+        width: 45%;
+        margin: 5% 0 0 5%;
+    }
+}
+
+@media (max-width: 500px)
+{   
+    h1{
+        font-size: 1.5rem;
+    }
+    .ingreEquip li{
+        width: 90%;
+    }
+    .equip{
+        margin-bottom: 2rem;
+    }
+    .instructions li{
+        width: 90%;
+    }
+}
