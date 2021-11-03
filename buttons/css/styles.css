@@ -1,0 +1,271 @@
+.button_container{
+    border: 1px solid #ddd;
+    margin: 0 10px 10px 0;
+    padding: 20px;
+    width: 300px;
+    height: 300px;
+    float: left;
+    overflow: hidden;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#btn_oldNavy{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    background-color: #163e69;
+    border: 1px solid #163e69;
+    color: oldlace;
+    margin: auto;
+    margin-top: 100px;
+    padding: 13px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#btn_oldNavy:hover{
+    background-color:white;
+    color: #163e69;
+}
+
+#btn_ins{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 80px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #30618A ;
+}
+
+.fab{
+    font-size: 100px;
+    color: #30618A ;
+}
+
+#btn_ins:hover{
+    transform: scale(1.5);
+    color: white;
+}
+
+#btn_fitbit{
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-top: 80px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.fa-heartbeat{
+    font-size: 40px;
+    padding-right: 10px;
+    color: #4cc2c4 ;
+}
+
+@keyframes beat {
+    from { transform: scale(1.5); }
+    to { transform: scale(.5); }
+}
+
+#btn_fitbit:hover .fa-heartbeat::before {
+    display: block;
+    animation-name: beat;
+    animation-duration: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#btn_tesla{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Fruktur', cursive;
+    font-size: 80px;
+    text-decoration: none;
+    color: #e82127;
+}
+
+.fa-car-side{
+    padding: 10px 180px 0 0;
+    font-size: 40px;
+    color: black;
+}
+
+@keyframes run {
+    from { transform: translate(0px) }
+    to { transform: translate(180px) }
+}
+
+#btn_tesla:hover .fa-car-side::before {
+    display: block;
+    animation-name: run;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+}
+
+#btn_wizard{
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    font-family: 'Henny Penny', cursive;
+    font-size: 40px;
+    text-decoration: none;
+    color:black;
+}
+
+.fa-quidditch{
+    font-size: 40px;
+    color: black;
+}
+
+@keyframes rotate {
+    from { transform: rotate(-90deg);}
+    to { transform: rotate(-360deg);}
+}
+
+#btn_wizard:hover {
+    color: purple;
+}
+
+#btn_wizard:hover .fa-quidditch::before {
+    color: purple;
+    display: block;
+    transform: scale(2);
+    animation-name: rotate;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
+
+#btn_colorRun{
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    font-family: 'Libre Caslon Text', serif;
+    font-size: 60px;
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+}
+
+@keyframes colorchange {
+    from { color:darkorange}
+    10% {color: orange;}
+    20% {color:yellow;}
+    30% {color: yellowgreen;}
+    40% {color: green;}
+    50% {color: darkgreen;}
+    60% {color: blue;}
+    70% {color: blueviolet;}
+    80% {color: purple;}
+    90% {color: darkred;}
+    to { color:red;};
+}
+
+#btn_colorRun:hover{
+    animation-name: colorchange;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+#btn_cycles{
+    display: block;
+    width: 80px;
+    height: 200px;
+    background-color: white;
+    margin: 0px 0px 0 60px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: left;
+    color: darkred;
+    opacity: .2;
+}
+
+.fa-tools{
+    padding-top: 10px;
+    font-size: 100px;
+}
+
+#btn_cycles:hover{
+    opacity: 1;
+}
+
+#btn_ideo{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    box-sizing: border-box;
+    background-color: #163e69;
+    border: 1px solid #163e69;
+    color: darkorange;
+    margin: auto;
+    margin-top: 100px;
+    padding: 13px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#btn_ideo:hover{
+    border-radius: 25px;
+}
+
+#btn_apple{
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    background-color: white;
+    margin: auto;
+    margin-top: 70px;
+    font-size: 20px;
+}
+
+.fa-apple{
+    color: black;
+    padding-top: 10px;
+}
+
+#btn_apple:hover{
+    background-color: black;
+}
+
+#btn_apple:hover .fa-apple::before{
+    color: white;
+}
+
+#btn_NIKE{
+    display: inline-block;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    color: black;
+    margin: auto;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    
+}
+
+#btn_NIKE:hover{
+    transform: translate(-50%, -25%) rotate(180deg) scale(0.8);
+}
