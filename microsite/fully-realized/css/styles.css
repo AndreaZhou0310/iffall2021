@@ -1,0 +1,121 @@
+html body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-size: 14pt;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav#main-nav{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav#main-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav#main-nav ul li a{
+    font-size: 26pt;
+    display: inline-block;
+    color: #e3c8d8;
+    line-height: 100px;
+    position: relative;
+    padding: 0 1rem;
+    text-decoration: none;
+}
+
+nav#main-nav ul li a:hover{
+    color: black;
+    background: linear-gradient(to right,#92a8d1,#f7c9c9)
+}
+
+nav#main-nav ul li a.selected{
+    color: black;
+    background-color: white;
+}
+
+nav#main-nav ul li a#logo{
+    padding: 0;
+}
+
+nav#main-nav ul li a#logo:hover{
+    background: transparent;
+}
+
+main.homepage{
+    background-color: black;
+}
+
+section.home{
+    color: white;
+    padding: 5%;
+}
+
+section.home p{
+    width: 70%;
+    margin: 3% 5% 3% 25%;
+    max-width: 900px;
+}
+
+footer{
+    height: 50px;
+    background:linear-gradient(to right,#92a8d1,#f7c9c9);
+}
+
+div.leftpanel{
+    width: 25%;
+    height: 100%;
+    float: left;
+    background:linear-gradient(to right,#92a8d1,#f7c9c9);
+    position: fixed;
+    margin-top: 100px;
+    left: 0;
+}
+
+div.rightpanel{
+    width: 75%;
+    height: 100%;
+    float: right;
+    margin-top: 100px;
+}
+
+nav#sub-nav ul{
+    padding-top: 40%;
+    width: 100%;
+    padding-bottom: 200%;
+}
+
+nav#sub-nav ul li{
+    padding: 1.5em;
+    text-align: center;
+}
+
+nav#sub-nav ul li a{
+    font-size: 24pt;
+    text-decoration: none;
+}
+
+div.rightpanel ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div.rightpanel li{
+    display: block;
+}
+
+div.rightpanel img{
+    width: 20%;
+}
