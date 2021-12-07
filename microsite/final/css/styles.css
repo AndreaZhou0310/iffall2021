@@ -342,7 +342,7 @@ ul.grid :hover{
 
 #drawer button.controls .fa{
     font-size: 32pt;
-    color: #e3c8d8;
+    color:linear-gradient(to right,#92a8d1,#f7c9c9);
 }
 
 #drawer .contents {					
