@@ -10,6 +10,11 @@ html body{
     margin-right: auto;
 }
 
+header{
+    position: relative;
+    z-index: 1000;
+}
+
 img{
     max-width: 100%;
 }
@@ -89,6 +94,7 @@ footer{
     font-size: 10pt;
     padding: 2.5% 5% 5% 10%;
     background:linear-gradient(to right,#92a8d1,#f7c9c9);
+    clear:both;
 }
 
 section#leftpanel{
@@ -118,7 +124,7 @@ nav#sub-nav ul li{
 }
 
 nav#sub-nav ul li:hover{
-    background-color: white;
+    background-color:white;
 }
 
 nav#sub-nav ul li a{
@@ -185,7 +191,6 @@ ul.grid :hover{
 
 .awards #rightpanel ul.grid li#label{
     position:sticky;
-    z-index: 1;
     top:100px;
     background-color: white;
     border-bottom: 5px solid black;
@@ -320,11 +325,15 @@ ul.grid :hover{
     .space {
         display: none;
     }
+    footer.twopanel{
+       padding-left: 30vw;
+       background: black;
+       color: #e3c8d8;
+    }
 }
 
 #drawer {				
     height: 60px;
-    z-index: 9999;
 }
 
 #drawer button.controls {
